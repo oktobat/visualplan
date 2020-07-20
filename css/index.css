@@ -1,0 +1,33 @@
+@charset "utf-8";
+* { margin:0; padding:0;    
+    box-sizing:border-box}
+a { color:inherit; 
+    text-decoration:none }
+ul { list-style:none }
+.row { width:1142px; margin:0 auto}
+.cf:after { content:''; 
+    display:block; clear:both }
+.blind { width:0; height:0; 
+    position:absolute; text-indent:-9999px;
+    font-size:0px; overflow:hidden
+}
+
+
+.topmenu { text-align:right }    
+.h1NavWrap { 
+    border-top:1px solid #dedede}
+.h1Nav h1 { float:left }    
+.h1Nav .nav { float:right }
+
+.slide img { width:100% }
+
+.company ul li { float:left; }
+
+.business img { width:100% }
+.cscenter > div { float:left }
+
+#footer { background:#111 }
+#footer .companyInfo { float:left }
+#footer .sns { float:right  }
+
+.goTop { font-size:30px; }
