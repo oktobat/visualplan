@@ -12,8 +12,7 @@
 .topmenu .search_box input { border:none;  
     padding:4px 0.5em; }
 
-
-
+    
 .topmenu a { padding:0px 11px; position:relative; 
     /* border-left:1px solid #d2d3d5  */ }    
 .topmenu a:before { content:''; width:1px; 
