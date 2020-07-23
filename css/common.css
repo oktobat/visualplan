@@ -4,12 +4,13 @@
     background:#fff; 
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); 
     z-index:99; }
-.topmenu { 
-    text-align:right;
-    font-size:11px; 
-    font-family:'나눔고딕';
-    color:rgba(0,0,0,0.6);
-    padding:9px 0 } 
+.topmenu { text-align:right; font-size:11px; font-family:'나눔고딕';
+    color:rgba(0,0,0,0.6); padding:9px 0; position:relative; } 
+.topmenu .search_box { position:absolute; top:3px; left:0; }    
+.topmenu .search_box fieldset { border:1px solid #ccc; 
+    padding-right:5px; border-radius:2px }
+.topmenu .search_box input { border:none;  padding:4px 0.5em; }
+
 .topmenu a { padding:0px 11px; position:relative; 
     /* border-left:1px solid #d2d3d5  */ }    
 .topmenu a:before { content:''; width:1px; 
