@@ -40,13 +40,15 @@
 .h1Nav .nav { position:absolute; 
     top:0; right:0 }
 .h1Nav .nav .depth1 > li { 
-    display:inline-block; position:relative; } 
+    display:inline-block; position:relative;
+    font-weight:bold;
+} 
 .h1Nav .nav .depth1 > li > a {
     position:relative; 
     display:block; padding:0 50px;
     font-size:17px; color:#666;
     font-family:'나눔고딕';
-    margin-top:38px; font-weight:bold;
+    margin-top:38px; 
     /* border-left:1px solid #d2d3d5  */
 }       
 /* .h1Nav .nav .depth1 > li:first-child > a { border:none } */
