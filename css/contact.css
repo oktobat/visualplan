@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "reset.css";
 @import "common.css";
+@import "rwdcommon.css";
 
 #contact_section { padding:235px 0 100px }
 #contact_section h2 { font-size:38px; color:#222; text-align:center; margin-bottom:30px  }
