@@ -23,7 +23,7 @@
     .h1Nav .nav { position:static; 
         top:0; right:0; text-align:center }
     .h1Nav .nav .depth1 > li { 
-        display:inline-block; position:relative; } 
+        display:table-cell; position:relative; } 
     .h1Nav .nav .depth1 > li > a {
         position:relative; 
         display:block; padding:30px 50px 30px;
