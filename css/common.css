@@ -40,8 +40,8 @@
 .h1Nav .nav { position:absolute; 
     top:0; right:0 }
 .h1Nav .nav .depth1 > li { 
-    display:inline-block; position:relative;
-    font-weight:bold;
+    display:table-cell; position:relative;
+    background:red;
 } 
 .h1Nav .nav .depth1 > li > a {
     position:relative; 
