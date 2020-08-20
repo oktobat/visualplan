@@ -58,8 +58,8 @@
 .h1Nav .nav .depth1 > li:first-child > a:before { display:none }   
 .nav .depth2 { position:absolute; top:100%; left:0px;
     width:100%; background:#fff; padding:15px 25px;
-    display:none; transition:all 0.5s }
-.nav .depth1 > li:hover .depth2 { display:block;  }    
+    display:none; /*transition:all 0.5s*/ }
+/* .nav .depth1 > li:hover .depth2 { display:block;  }     */
 .nav .depth2 > li { line-height:31px; font-size:13px;
     color:rgba(0,0,0,0.6); text-align:center; 
     border-top:1px solid rgba(0,0,0,0.15);
